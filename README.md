@@ -1,3 +1,6 @@
+LINKS: https://drive.google.com/drive/folders/1Amcj1aeSLgyjjBVE2ZKfs5dvHwxtrNyF?usp=drive_link
+       https://ritaalediaz.atlassian.net/jira/software/projects/SCRUM/boards/1
+
 # 🍕 PIZZA CONMIGO - Sitio Web Interactivo para Pizzería
 
 Proyecto grupal de desarrollo web que simula la experiencia digital de una pizzería moderna y personalizada.
