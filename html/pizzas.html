@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Conmigo</title>
+    <link rel="icon" href="../imagenes/pizza icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/pizzas.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quienes somos</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container-icon">
+            <img class="icon-cart" src="../imagenes/carrito de compras.png" alt="carrito">
+            <p> Total $<span id="total">   0000</span></p>
+           
+             </div>
+<div>
+  <button id="comprarBtn">Finalizar Compra</button>
+</div>
+    <main>
+        
+ <div class="contenedor-pizzas">
+ 
+  <div class="tarjeta-pizza">
+    <img src="../imagenes/muzzarella.png" alt="Pizza Muzzarella">
+    <h3>Muzzarella</h3>
+    <p class="precio">$13500</p>
+    <div class="cantidad">
+      <label for="cant-muzzarella">Cantidad:</label>
+      <input type="number" id="cant-muzzarella" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+  <div class="tarjeta-pizza">
+    <img src="../imagenes/calabresa.png" alt="Pizza Calabresa">
+    <h3>Calabresa</h3>
+    <p class="precio">$16900</p>
+    <div class="cantidad">
+      <label for="cant-calabresa">Cantidad:</label>
+      <input type="number" id="cant-calabresa" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+<div class="tarjeta-pizza">
+    <img src="../imagenes/aceituna y tomate.png" alt="Pizza Tomate y Oliva">
+    <h3>Tomate y Oliva</h3>
+    <p class="precio">$15000</p>
+    <div class="cantidad">
+      <label for="cant-aceituna y tomate">Cantidad:</label>
+      <input type="number" id="cant-Tomate y Oliva" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+<div class="tarjeta-pizza">
+    <img src="../imagenes/champignones.png" alt="Pizza champignones">
+    <h3>champignones</h3>
+    <p class="precio">$20000</p>
+    <div class="cantidad">
+      <label for="cant-champignones">Cantidad:</label>
+      <input type="number" id="cant-champignones" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+<div class="tarjeta-pizza">
+    <img src="../imagenes/cuatroquesos.png" alt="Pizza CUATRO QUESOS">
+    <h3>CUATRO QUESOS</h3>
+    <p class="precio">$25000</p>
+    <div class="cantidad">
+      <label for="cant-cuatroquesos">Cantidad:</label>
+      <input type="number" id="cant-cuatroquesos" min="1" value="0">
+      </div>
+ <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+   
+<div class="tarjeta-pizza">
+    <img src="../imagenes/Hawaiana.png" alt="Pizza Hawaiana">
+    <h3>Hawaiana</h3>
+    <p class="precio">$23000</p>
+    <div class="cantidad">
+      <label for="cant-hawaina">Cantidad:</label>
+      <input type="number" id="cant-hawaina" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+<div class="tarjeta-pizza">
+    <img src="../imagenes/jamon.png" alt="Pizza Especial Jamon">
+    <h3>Especial Jamon</h3>
+    <p class="precio">$22000</p>
+    <div class="cantidad">
+      <label for="cant-jamon">Cantidad:</label>
+      <input type="number" id="cant-jamon" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+   </div>
+
+    
+<div class="tarjeta-pizza">
+    <img src="../imagenes/pollo.png" alt="Pizza Pollo">
+    <h3>Pollo</h3>
+    <p class="precio">$21000</p>
+    <div class="cantidad">
+      <label for="cant-pollo">Cantidad:</label>
+      <input type="number" id="cant-pollo" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+  <div class="tarjeta-pizza">
+    <img src="../imagenes/tomate y rucula.png" alt="Pizza Tomate y Rucula">
+    <h3>Tomate y Rucula</h3>
+    <p class="precio">$20000</p>
+    <div class="cantidad">
+      <label for="cant-tomate y rucula">Cantidad:</label>
+      <input type="number" id="cant-tomate y rucula" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+  <div class="tarjeta-pizza">
+    <img src="../imagenes/vegetariana.png" alt="Pizza Vegetariana">
+    <h3>Vegetariana</h3>
+    <p class="precio">$19000</p>
+    <div class="cantidad">
+      <label for="cant-vegetariana">Cantidad:</label>
+      <input type="number" id="cant-vegetariana" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+    
+
+<div class="tarjeta-pizza">
+    <img src="../imagenes/figazzeta.png" alt="Pizza Fugazzeta">
+    <h3>Fugazzeta</h3>
+    <p class="precio">$13900</p>
+    <div class="cantidad">
+      <label for="cant-fugazzeta">Cantidad:</label>
+      <input type="number" id="cant-fugazzeta" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+
+      <div class="tarjeta-pizza">
+    <img src="../imagenes/langostino.png" alt="Pizza Langostino">
+    <h3>Langostino</h3>
+    <p class="precio">$28000</p>
+    <div class="cantidad">
+      <label for="cant-langostino">Cantidad:</label>
+      <input type="number" id="cant-langostino" min="1" value="0">
+    </div>
+    <button class="btn-agregar">Agregar al carrito</button>
+  </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </main>
+
+    <script src="../js/pizza.js"></script>
+
+    <footer class="mi-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../imagenes/logo 1.png" alt="Logo de Mi Empresa" class="logo-img">
+            </div>
+
+            <div class="social-icons">
+                <a href="https://facebook.com/tupagina" target="_blank">
+                    <img src="../imagenes/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://whatsappm/in/tuperfil" target="_blank">
+                    <img src="../imagenes/whatsapp.png" alt="whatsapp" class="social-icon">
+                </a>
+                <a href="https://instagram.com/tuperfil" target="_blank">
+                    <img src="../imagenes/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://tik-tok.com/tuusuario" target="_blank">
+                    <img src="../imagenes/tik-tok.png" alt="tiktok" class="social-icon">
+                </a>
+            </div>
+        </div>
+        <p>Colón 3030- Olavarria - Pcia de Buenos Aires</p>
+      <p>&copy;2025 Desarrollado por Ojo Creativo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

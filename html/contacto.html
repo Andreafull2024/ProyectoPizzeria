@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Conmigo</title>
+    <link rel="icon" href="../imagenes/pizza icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/contacto.css">
+
+</head>
+<body>
+    <header>
+          <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quienes somos</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      
+    <div class="contenedor-principal">
+
+        <div class="contenedor-formulario">
+            <h2 id="titulo"><span>Dejános tu Comentario...</span></h2>
+
+         
+  <form>
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" class="input" name="nombre">
+    </div>
+
+    <div class="form-group">
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" class="input" name="apellido">
+    </div>
+
+    <div class="form-group">
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" class="input" name="telefono">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" class="input" name="email">
+    </div>
+            
+    <div class="form-group"></div>
+                <div>
+                    <label for="mensaje"><span>Mensaje:</span></label>
+                    <textarea name="comentario" id="mensaje" rows="20" cols="50" 
+                        required>Escribe tu Consulta:</textarea>
+                </div>
+
+                <input class="btn-enviar" type="image" id="enviar" src="../imagenes/enviar.png" alt="Enviar">
+            </form>
+        </div>
+    </main>
+
+    
+  <script src="../js/contacto.js"></script>
+
+<footer class="mi-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../imagenes/logo 1.png" alt="Logo de Mi Empresa" class="logo-img">
+            </div>
+
+           
+
+           <div class="social-icons">
+                <a href="https://facebook.com/tupagina" target="_blank">
+                    <img src="../imagenes/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://whatsappm/in/tuperfil" target="_blank">
+                    <img src="../imagenes/whatsapp.png" alt="whatsapp" class="social-icon">
+                </a>
+                <a href="https://instagram.com/tuperfil" target="_blank">
+                    <img src="../imagenes/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://tik-tok.com/tuusuario" target="_blank">
+                    <img src="../imagenes/tik-tok.png" alt="tiktok" class="social-icon">
+                </a>
+            </div>
+        </div>
+        <p>Colón 3030- Olavarria - Pcia de Buenos Aires</p>
+       <p>&copy;2025 Desarrollado por Ojo Creativo. Todos los derechos reservados.</p>
+    </footer>
+    </body>
+</html>
